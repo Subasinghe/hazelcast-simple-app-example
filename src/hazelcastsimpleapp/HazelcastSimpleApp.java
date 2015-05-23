@@ -22,7 +22,7 @@ public class HazelcastSimpleApp {
      */
     public static void main(String[] args) {
         HazelcastInstance instance = Hazelcast.newHazelcastInstance();
-        HazelcastInstance instance2 = Hazelcast.newHazelcastInstance();
+       /* HazelcastInstance instance2 = Hazelcast.newHazelcastInstance();
         
         Map<Long, String> map = instance.getMap("a");
         IdGenerator gen = instance.getIdGenerator("gen");
@@ -36,6 +36,7 @@ public class HazelcastSimpleApp {
         }
         
         System.exit(0);
-    }
+    } */
     
+}
 }
